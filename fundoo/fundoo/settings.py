@@ -102,10 +102,10 @@ CHANNEL_LAYERS = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.backends.mysql',
-        'NAME': 'chatappdb',
-        'USER': 'Admin',
-        'PASSWORD': 'rahul2002',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb',
+        'USER': 'testdb',
+        'PASSWORD': 'Rahul@123',
         'HOST': 'mysql',
         'PORT': '3306',
     }
