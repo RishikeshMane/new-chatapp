@@ -40,7 +40,7 @@ def Signup(request):
                 'user': user,
                 'domain':'http://13.232.251.134/',
                 # 'domain': current_site.domain,
-                'uid': urlsafe_base64_encode(force_bytes(user.pk)).decode(),  # because django 2.0.0
+                'uid': urlsafe_base64_encode(force_bytes(user.pk)),  # because django 2.0.0
                 'token': account_activation_token.make_token(user),
             })
             mail_subject = 'Activate Your ChatApp Account.'  # mail subject
