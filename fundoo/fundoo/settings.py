@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'databasenew',
         'USER': 'admin',
         'PASSWORD': 'database1234',
-        'HOST': 'database_container',
+        'HOST': 'database-1.ca0ex7ekzlo7.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
